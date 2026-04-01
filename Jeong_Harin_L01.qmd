@@ -102,7 +102,7 @@ Predictive models aim for the most accurate prediction possible for new data.
 
 :::
 
-### Question 4 
+### Question 4 :white_check_mark:
 
 We can further describe/classify predictive models by how they were derived or developed as being either mechanistic or empirically driven. 
 
@@ -113,7 +113,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models depend on known, fundamental laws. 
 
 :::
 
@@ -124,7 +124,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Empirically driven models rely on observed data. 
 
 :::
 

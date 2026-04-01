@@ -67,7 +67,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Supervised learning involves labeled data with corresponding outputs. Unsupervised learning uses unlabeled data without predefined outputs. It is used to uncover new insights, such as patterns or relationships, about the data.
+Supervised learning involves labeled data with a target variable. Unsupervised learning uses unlabeled data without predefined outputs. It is used to uncover new insights, such as patterns, structures, or relationships, about the data.
 
 :::
 
@@ -113,7 +113,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Mechanistic models depend on known, fundamental laws. 
+Mechanistic models depend on known, fundamental laws. They are formula-/theory-based. 
 
 :::
 
@@ -135,7 +135,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are parametric. Empirically driven models are nonparametric. 
 
 :::
 

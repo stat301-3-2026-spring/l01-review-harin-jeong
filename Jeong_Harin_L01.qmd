@@ -71,7 +71,7 @@ Supervised learning involves labeled data with corresponding outputs. Unsupervis
 
 :::
 
-### Question 3 
+### Question 3 :white_check_mark:
 
 In general, we can classify a model by its purpose into 1 of the 3 categories below. Provide a brief description of the goals of these model classes.
 
@@ -80,7 +80,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Descriptive models seek to describe certain characteristics of a dataset, and visually emphasize a trend or artifact of the data. 
 
 :::
 
@@ -89,7 +89,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential models produce a decision for a research question or test a hypothesis, relying on underlying assumptions.  
 
 :::
 
@@ -98,7 +98,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Predictive models aim for the most accurate prediction possible for new data. 
 
 :::
 

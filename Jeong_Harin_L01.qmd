@@ -39,14 +39,24 @@ The goal of this lab is to review machine learning/predictive modeling vocabular
 
 When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
 
-### Question 1
+### Question 1 :white_check_mark:
 
 Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+1. Defining the problem
+2. Data collection
+3. Data cleaning
+4. Exploratory data analysis
+5. Splitting the data
+6. Preprocessing/Feature engineering
+7. Choosing a model
+8. Training the model 
+9. Tuning hyperparameters
+10. Evaluating on the test set
+11. Final model 
 
 :::
 

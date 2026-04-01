@@ -60,14 +60,14 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 
 :::
 
-### Question 2
+### Question 2 :white_check_mark:
 
 Explain the difference between supervised and unsupervised learning.
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning involves labeled data with corresponding outputs. Unsupervised learning uses unlabeled data without predefined outputs. It is used to uncover new insights, such as patterns or relationships, about the data.
 
 :::
 

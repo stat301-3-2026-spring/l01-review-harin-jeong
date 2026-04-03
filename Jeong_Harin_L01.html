@@ -2194,10 +2194,10 @@ vertical-align: -.125em;
   <li><a href="#part-e" id="toc-part-e" class="nav-link" data-scroll-target="#part-e">Part (e)</a></li>
   <li><a href="#part-f" id="toc-part-f" class="nav-link" data-scroll-target="#part-f">Part (f)</a></li>
   </ul></li>
-  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5</a></li>
-  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a></li>
-  <li><a href="#question-7" id="toc-question-7" class="nav-link" data-scroll-target="#question-7">Question 7</a></li>
-  <li><a href="#question-8" id="toc-question-8" class="nav-link" data-scroll-target="#question-8">Question 8</a></li>
+  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5 <span class="emoji" data-emoji="white_check_mark">✅</span></a></li>
+  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6 <span class="emoji" data-emoji="white_check_mark">✅</span></a></li>
+  <li><a href="#question-7" id="toc-question-7" class="nav-link" data-scroll-target="#question-7">Question 7 <span class="emoji" data-emoji="white_check_mark">✅</span></a></li>
+  <li><a href="#question-8" id="toc-question-8" class="nav-link" data-scroll-target="#question-8">Question 8 <span class="emoji" data-emoji="white_check_mark">✅</span></a></li>
   <li><a href="#question-9" id="toc-question-9" class="nav-link" data-scroll-target="#question-9">Question 9</a></li>
   <li><a href="#question-10" id="toc-question-10" class="nav-link" data-scroll-target="#question-10">Question 10</a></li>
   <li><a href="#question-11" id="toc-question-11" class="nav-link" data-scroll-target="#question-11">Question 11</a></li>
@@ -2467,7 +2467,7 @@ vertical-align: -.125em;
 </section>
 </section>
 <section id="question-5" class="level3">
-<h3 class="anchored" data-anchor-id="question-5">Question 5</h3>
+<h3 class="anchored" data-anchor-id="question-5">Question 5 <span class="emoji" data-emoji="white_check_mark">✅</span></h3>
 <p>Explain the difference between a regression and classification machine learning (ML) problems.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -2479,12 +2479,12 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Regression problems predict continuous outcomes, whereas classification problems predict categorical outcomes.</p>
 </div>
 </div>
 </section>
 <section id="question-6" class="level3">
-<h3 class="anchored" data-anchor-id="question-6">Question 6</h3>
+<h3 class="anchored" data-anchor-id="question-6">Question 6 <span class="emoji" data-emoji="white_check_mark">✅</span></h3>
 <p>When splitting the data, why is it useful to stratify by the outcome/target variable?</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -2496,12 +2496,12 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Stratifying by the outcome variable ensures that each data split has a similar distribution of the target variable. This is especially important if some outcome groups are rare, because without stratification one split might end up with too many or too few of a certain group, making the model train poorly or be evaluated unfairly.</p>
 </div>
 </div>
 </section>
 <section id="question-7" class="level3">
-<h3 class="anchored" data-anchor-id="question-7">Question 7</h3>
+<h3 class="anchored" data-anchor-id="question-7">Question 7 <span class="emoji" data-emoji="white_check_mark">✅</span></h3>
 <p>Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -2513,12 +2513,12 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>V-fold cross validation with repeats works by splitting the training data into v groups, training the model on v−1 groups, and testing it on the remaining group. This process is repeated so each fold is used as the test set, and then the whole process is repeated multiple times with different splits. The RMSE from all runs is averaged to estimate the test RMSE. This method is used for a more reliable estimate of model performance and too reduce the effect of random chance from one data split.</p>
 </div>
 </div>
 </section>
 <section id="question-8" class="level3">
-<h3 class="anchored" data-anchor-id="question-8">Question 8</h3>
+<h3 class="anchored" data-anchor-id="question-8">Question 8 <span class="emoji" data-emoji="white_check_mark">✅</span></h3>
 <p>When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -2530,7 +2530,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>We might use a bootstrap resampling procedure instead of v-fold cross validation when the dataset is small. Bootstrapping repeatedly samples from the data with replacement to create many training sets, allowing us to estimate test RMSE even when we don’t have much data to split into folds. This method makes more efficient use of limited data because each bootstrap sample uses most of the observations for training. It is especially useful when we want a stable estimate of model performance with small sample sizes.</p>
 </div>
 </div>
 </section>

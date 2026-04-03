@@ -172,47 +172,47 @@ Mechanistic models have high bias and low variance, whereas empirically driven m
 
 :::
 
-### Question 5 
+### Question 5 :white_check_mark: 
 
 Explain the difference between a regression and classification machine learning (ML) problems.
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Regression problems predict continuous outcomes, whereas classification problems predict categorical outcomes. 
 
 :::
 
-### Question 6 
+### Question 6 :white_check_mark:
 
 When splitting the data, why is it useful to stratify by the outcome/target variable? 
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Stratifying by the outcome variable ensures that each data split has a similar distribution of the target variable. This is especially important if some outcome groups are rare, because without stratification one split might end up with too many or too few of a certain group, making the model train poorly or be evaluated unfairly. 
 
 :::
 
-### Question 7 
+### Question 7 :white_check_mark:
 
 Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+V-fold cross validation with repeats works by splitting the training data into v groups, training the model on v−1 groups, and testing it on the remaining group. This process is repeated so each fold is used as the test set, and then the whole process is repeated multiple times with different splits. The RMSE from all runs is averaged to estimate the test RMSE. This method is used for a more reliable estimate of model performance and too reduce the effect of random chance from one data split.
 
 :::
 
-### Question 8
+### Question 8 :white_check_mark:
 
 When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+We might use a bootstrap resampling procedure instead of v-fold cross validation when the dataset is small. Bootstrapping repeatedly samples from the data with replacement to create many training sets, allowing us to estimate test RMSE even when we don’t have much data to split into folds. This method makes more efficient use of limited data because each bootstrap sample uses most of the observations for training. It is especially useful when we want a stable estimate of model performance with small sample sizes.
 
 :::
 

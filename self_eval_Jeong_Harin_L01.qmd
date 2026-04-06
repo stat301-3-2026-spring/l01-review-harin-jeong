@@ -1,8 +1,8 @@
 ---
-title: "Self Evaluation L01 Review"
+title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
 author: "Harin Jeong"
-pagetitle: "Self Evaluation L01 Harin Jeong"
+pagetitle: "L01 Harin Jeong"
 date: today
 
 format:
